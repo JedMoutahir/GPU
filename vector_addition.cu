@@ -7,6 +7,8 @@ void add(int n, float *x, float *y)
     int stride = blockDim.x;
     for (int i = index; i < n; i += stride)
         y[i] = x[i] + y[i];
+    
+    printf("Hello from block %d, thread %d", blockIdx.x, threadIdx.x);
 }
 
 int main(void)
