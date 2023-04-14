@@ -29,8 +29,8 @@ That's it! You have successfully installed CUDA on your Windows machine.
 To execute the CUDA code, follow these steps:
 
 - Open a terminal or command prompt and navigate to the directory where the file is saved.
-- Compile the code using the nvcc compiler provided by the CUDA toolkit. Type the following command in the terminal: `nvcc vector_addition.cu -o vector_addition`
+- Compile the code using the nvcc compiler provided by the CUDA toolkit. Type the following command in the terminal: `nvcc vector_addition.cu -o vector_addition`  
 This command compiles the `vector_addition.cu` file and generates an executable file called `vector_addition`.
 - Run the executable file by typing the following command in the terminal:
-`./vector_addition`
+`./vector_addition`  
 This command executes the `vector_addition` program on the GPU, and the output is displayed in the terminal.
